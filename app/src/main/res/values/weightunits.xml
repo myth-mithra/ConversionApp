@@ -1,0 +1,8 @@
+<resources>
+
+    <string-array name="weightunits">
+        <item>kilogram</item>
+        <item>pound</item>
+        <item>ounce</item>
+    </string-array>
+</resources>

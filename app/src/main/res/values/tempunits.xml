@@ -1,0 +1,7 @@
+<resources>
+    <string-array name="tempunits">
+        <item>celcius</item>
+        <item>farenheit</item>
+        <item>kelvin</item>
+    </string-array>
+</resources>

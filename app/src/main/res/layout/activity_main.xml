@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linear_layout"
+        android:gravity = "center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginVertical="10dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="@color/teal_200"
+        android:background="@color/teal_200">
+
+        <TextView
+            android:id="@+id/txtView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="conversion"
+            android:textColor="#A83A60"
+            android:textColorHint="#AE2828"
+            android:textSize="27dp"
+            android:layout_marginBottom="10dp"/>
+
+        <Spinner
+            android:id="@+id/conversion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/txtView"
+            android:layout_marginBottom="30dp"
+            android:outlineAmbientShadowColor="@color/cardview_shadow_end_color" />
+
+        <TextView
+            android:id="@+id/txtfrom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="units from"
+            android:textColor="#9FAE0D"
+            android:textSize="27dp" />
+
+        <Spinner
+            android:id="@+id/from"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/txtView"
+            android:layout_marginBottom="30dp" />
+
+        <TextView
+            android:id="@+id/txtto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="units to"
+            android:textColor="#BAAB25"
+            android:textSize="27dp" />
+
+        <Spinner
+            android:id="@+id/to"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/txtView"
+            android:layout_marginBottom="30dp"/>
+
+
+        <EditText
+            android:id="@+id/editTextNumberDecimal1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="enter first value"
+            android:inputType="numberDecimal"
+            android:text="0.0"
+            android:layout_marginBottom="20dp"/>
+
+        <EditText
+            android:id="@+id/editTextNumberDecimal2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="enter second value"
+            android:inputType="numberDecimal"
+            android:layout_marginBottom="20dp"/>
+        <Button
+            android:id="@+id/buttonconvert"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="convert"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="70dp"
+            android:layout_marginLeft="70dp"
+            android:height="10dp"/>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+

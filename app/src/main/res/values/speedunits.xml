@@ -1,0 +1,7 @@
+<resources>
+    <string-array name="speedunits">
+        <item>kmph</item>
+        <item>Mph</item>
+        <item>knot</item>
+    </string-array>
+</resources>

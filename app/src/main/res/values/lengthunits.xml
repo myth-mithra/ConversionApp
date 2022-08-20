@@ -1,0 +1,7 @@
+<resources>
+    <string-array name="lengthunits">
+        <item>meter</item>
+        <item>feet</item>
+        <item>yard</item>
+    </string-array>
+</resources>
